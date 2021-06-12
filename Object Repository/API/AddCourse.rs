@@ -26,7 +26,7 @@
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>http://localhost:3000/lecturer/course</restUrl>
+   <restUrl>https://academy-for-test.herokuapp.com/lecturer/course</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

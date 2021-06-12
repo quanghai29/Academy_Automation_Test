@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:3000/view/course/add')
+WebUI.navigateToUrl('https://academy-for-test.herokuapp.com/view/course/add')
 
 WebUI.setText(findTestObject('Object Repository/Page_Add Course/input_Title_txtTitle'), 'Học lập trình Go')
 

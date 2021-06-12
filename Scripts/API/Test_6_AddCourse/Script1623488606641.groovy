@@ -20,7 +20,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 def request = (RequestObject)findTestObject('API/AddCourse')
-String body = '{"title": "Lập trình C cơ bản", "category_id": 1, "lecturer_id": 4, "price": 250000}'
+String body = '{"title": "Lập trình C cơ bản và nâng cao", "category_id": 1, "lecturer_id": 4, "price": 250000}'
 
 request.setBodyContent(new HttpTextBodyContent(body, "UTF-8", "application/json"))
 WS.sendRequest(request)
