@@ -25,5 +25,5 @@ jobs:
           PASSWORD: fd1aaab3-1ce1-415a-ad04-ccd98182a331
           PROJECT_ID: 168078
           TYPE: katalon
-          REPORT_PATH: academy
+          REPORT_PATH: '${{ github.workspace }}\Reports'
 
