@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>view_course</name>
+   <name>UI_page_course</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f3976f73-f21f-4579-bdd7-84f9d6e83c89</testCaseGuid>
+   <testCaseGuid>b551df3c-45eb-474e-8da8-694ae537b9d7</testCaseGuid>
 </TestCaseEntity>

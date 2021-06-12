@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Load course</name>
+   <name>input_Search_form-control form-control-sm</name>
    <tag></tag>
-   <elementGuidId>cc24835d-b38a-47ab-971c-c2a18fbf2b4b</elementGuidId>
+   <elementGuidId>617735d2-472c-4cad-a0f8-4cb0547232db</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#btnLoadCourses</value>
+         <value>input.form-control.form-control-sm</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='btnLoadCourses']</value>
+         <value>//input[@type='search']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,64 +21,55 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>button</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>btnLoadCourses</value>
+      <value>search</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-outline-danger btn-lg btn-block</value>
+      <value>form-control form-control-sm</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>aria-controls</name>
       <type>Main</type>
-      <value>
-          Load course
-        </value>
+      <value>resultTable</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;btnLoadCourses&quot;)</value>
+      <value>id(&quot;resultTable_filter&quot;)/label[1]/input[@class=&quot;form-control form-control-sm&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='btnLoadCourses']</value>
+      <value>//input[@type='search']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Load course']/parent::*</value>
+      <value>//div[@id='resultTable_filter']/label/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
+      <value>//input</value>
    </webElementXpaths>
 </WebElementEntity>
