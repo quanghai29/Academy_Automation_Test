@@ -19,36 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-
 WebUI.navigateToUrl('https://academy-for-test.herokuapp.com/view/course')
 
 WebUI.click(findTestObject('Object Repository/Page_Course/button_Load course'))
-
-WebUI.click(findTestObject('Object Repository/Page_Course/th_'))
-
-WebUI.click(findTestObject('Object Repository/Page_Course/th_Price'))
-
-WebUI.click(findTestObject('Object Repository/Page_Course/th_Last Update'))
-
-WebUI.click(findTestObject('Object Repository/Page_Course/th_Last Update'))
-
-WebUI.click(findTestObject('Object Repository/Page_Course/th_Last Update'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Course/select_102550100'), '25', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Course/select_102550100'), '50', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Course/select_102550100'), '100', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Course/select_102550100'), '10', true)
-
-WebUI.click(findTestObject('Object Repository/Page_Course/a_2'))
-
-WebUI.click(findTestObject('Object Repository/Page_Course/a_Previous'))
-
-WebUI.click(findTestObject('Object Repository/Page_Course/a_Next'))
-
-WebUI.click(findTestObject('Object Repository/Page_Course/a_1'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Course/input_Search_form-control form-control-sm'), 'javascript')
 
@@ -56,5 +29,5 @@ WebUI.sendKeys(findTestObject('Object Repository/Page_Course/input_Search_form-c
 
 WebUI.setText(findTestObject('Object Repository/Page_Course/input_Search_form-control form-control-sm'), '')
 
-WebUI.click(findTestObject('Object Repository/Page_Course/div_Search'))
+WebUI.click(findTestObject('Object Repository/Page_Course/body_Load course                           _fbea6e'))
 

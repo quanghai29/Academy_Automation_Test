@@ -3,15 +3,15 @@
    <description></description>
    <name>button_Load course</name>
    <tag></tag>
-   <elementGuidId>cc24835d-b38a-47ab-971c-c2a18fbf2b4b</elementGuidId>
+   <elementGuidId>99435884-6b74-4370-9a76-af93e5fcddf2</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#btnLoadCourses</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//button[@id='btnLoadCourses']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#btnLoadCourses</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

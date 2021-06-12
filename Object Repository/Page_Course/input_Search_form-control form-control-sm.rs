@@ -3,15 +3,15 @@
    <description></description>
    <name>input_Search_form-control form-control-sm</name>
    <tag></tag>
-   <elementGuidId>617735d2-472c-4cad-a0f8-4cb0547232db</elementGuidId>
+   <elementGuidId>52c3d340-538c-40c9-a815-62bbdef38c82</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>input.form-control.form-control-sm</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@type='search']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.form-control.form-control-sm</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
