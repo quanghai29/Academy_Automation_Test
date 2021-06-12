@@ -19,6 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+
 WebUI.navigateToUrl('https://academy-for-test.herokuapp.com/view/course')
 
 WebUI.click(findTestObject('Object Repository/Page_Course/button_Load course'))
