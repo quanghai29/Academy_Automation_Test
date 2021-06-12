@@ -15,3 +15,10 @@ jobs:
           version: '7.5.5'
           projectPath: '${{ github.workspace }}'
           args: '-noSplash -retry=0 -browserType=Chrome -statusDelay=15 -testSuitePath="Test Suites/DemoTestSuite" -apiKey= ${{ secrets.API_KEY }} --config -webui.autoUpdateDrivers=true'
+    - name: Katalon Report Uploader
+      uses: katalon-studio/report-uploader@v0.0.8
+      env:
+          PASSWORD: fd1aaab3-1ce1-415a-ad04-ccd98182a331
+          PROJECT_ID: 168078
+          TYPE: katalon
+          REPORT_PATH: academy
