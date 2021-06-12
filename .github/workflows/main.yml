@@ -22,3 +22,14 @@ jobs:
           PROJECT_ID: 168078
           TYPE: katalon
           REPORT_PATH: academy
+  report:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Katalon Report Uploader
+      uses: katalon-studio/report-uploader@v0.0.8
+      env:
+          PASSWORD: fd1aaab3-1ce1-415a-ad04-ccd98182a331
+          PROJECT_ID: 168078
+          TYPE: katalon
+          REPORT_PATH: academy
+
